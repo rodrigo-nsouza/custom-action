@@ -12,7 +12,7 @@ RUN ls -ltra
 
 COPY entrypoint.sh /usr/local/bin/entrypoint.sh
 
-RUN /bin/chmod +x /usr/local/bin/entrypoint.sh
+RUN chmod +x /usr/local/bin/entrypoint.sh
 
 RUN ls -ltra /usr/local/bin/
 
