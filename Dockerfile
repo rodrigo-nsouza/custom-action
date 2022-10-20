@@ -18,4 +18,4 @@ COPY sample_push_event.json /sample_push_event.json
 
 RUN ls -ltra /
 
-ENTRYPOINT ["entrypoint.sh"]
+ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
